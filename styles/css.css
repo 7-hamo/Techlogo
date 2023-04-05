@@ -1,0 +1,37 @@
+
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+/* Typoghrafy */
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Roboto',Arial, Helvetica, sans-serif;
+}
+/* Form */
+.form{
+    border: 1px solid grey;
+    border-radius: 30px;
+    display: flex;
+    max-width: 30vw;
+    overflow: hidden;
+}
+.input{
+    border: none;
+    outline: none;
+    padding: 1.5rem 1.5rem;
+    flex-grow: 1;
+    font-size: 1.3rem;
+    color: #545340;
+}
+.form .icon{
+    font-size: 2rem;
+    padding: 1rem; 
+}
+/* Icons */
+.icon{
+    font-size: 2rem;
+    color: #969593;
+    padding: 1rem;
+}
