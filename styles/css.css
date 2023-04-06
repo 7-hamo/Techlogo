@@ -1,6 +1,17 @@
 *,*::after,*::before{
     box-sizing: border-box;
 }
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* backgrounds */
+.background-green{
+    background-color: #d1dd33;
+}
+/* blocks */
+
 /* Typoghrafy */
 html{
     font-size: 62.5%;
@@ -46,4 +57,10 @@ body{
 }
 .social-media i:last-child{
     border-right: 1.5px solid #ddddde;
+}
+/* Sections */
+.sections-top{
+    padding: 1rem ;
+    display: flex;
+    justify-content: space-between;
 }
