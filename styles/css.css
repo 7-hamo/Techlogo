@@ -9,6 +9,8 @@
 /* backgrounds */
 .background-green{
     background-color: #d1dd33;
+}.background-grey{
+    background-color: #545340;
 }
 /* blocks */
 
@@ -19,6 +21,7 @@ html{
 body{
     font-family: 'Roboto',Arial, Helvetica, sans-serif;
 }
+
 /* Form */
 .form{
     border: 1px solid grey;
@@ -63,4 +66,31 @@ body{
     padding: 1rem ;
     display: flex;
     justify-content: space-between;
+}
+/* website header */
+.website-header{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 0rem 3rem;
+    align-items: center;
+}
+.descreption{
+    text-align: left;
+}
+h1{
+    color: white;
+}
+.unlock{
+    font-weight: 300;
+    margin-bottom: 0;
+}
+.hamo{
+    margin-top: 0;
+}
+.p-descrition{
+    color: white;
+}
+.logo{
+    font-size: 10rem;
+    text-align: right;
 }
