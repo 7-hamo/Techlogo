@@ -1,3 +1,6 @@
+:root{
+    --green-color: #d1dd33;
+}
 *,*::after,*::before{
     box-sizing: border-box;
 }
@@ -16,9 +19,12 @@ a:hover{
 }
 /* backgrounds */
 .background-green{
-    background-color: #d1dd33;
+    background-color: var(--green-color);
 }.background-grey{
     background-color: #545340;
+}
+.background-dark{
+    background-color: #4e4e4c;
 }
 /* blocks */
 
@@ -120,7 +126,7 @@ padding: 1rem 4rem;
     
 }
 .card--green{
-    background-color: #d1dd33;
+    background-color: var(--green-color);
 }
 .card--red{
     background-color: #f0562f;
@@ -150,4 +156,15 @@ padding: 1rem 4rem;
 .card__footer i{
     padding-left: 1rem;
     font-size: 1rem;
+}
+/* Footer */
+footer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 2rem 2rem;
+    color: white;
+    justify-items: center;
+}
+.fa-ul{
+margin-left: 1.3rem;
 }
