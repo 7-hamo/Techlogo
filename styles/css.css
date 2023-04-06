@@ -5,7 +5,15 @@
     max-width: 1140px;
     margin: 0 auto;
 }
-
+a{
+    text-decoration: none;
+    color: inherit;
+    transition: .4s;
+    text-transform: uppercase;
+}
+a:hover{
+   color: #545340;
+}
 /* backgrounds */
 .background-green{
     background-color: #d1dd33;
@@ -93,4 +101,53 @@ h1{
 .logo{
     font-size: 10rem;
     text-align: right;
+}
+/* cards */
+.card{
+color: white;
+text-align: center;
+}
+.card--small{
+display: inline-block;
+padding: 1rem 4rem;
+}
+.card--large{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 2rem;
+    width: 20rem;
+    height: 30rem;
+    
+}
+.card--green{
+    background-color: #d1dd33;
+}
+.card--red{
+    background-color: #f0562f;
+    
+}
+.card i{
+    font-size: 2rem;
+}
+.card__title{
+    white-space: nowrap;
+    text-transform: uppercase;
+    font-size: 1.7rem;
+    margin-bottom: 0;
+}
+.card--large p{
+    text-align: left;
+}
+.card__footer{
+    display: flex;
+    align-items: center;
+    margin-top: auto;
+}
+.read-more{
+    flex-grow: 1;
+    text-align: left;
+}
+.card__footer i{
+    padding-left: 1rem;
+    font-size: 1rem;
 }
