@@ -41,7 +41,7 @@ body{
 
 /* Form */
 .form{
-    border: 1px solid grey;
+    
     border-radius: 30px;
     display: flex;
     align-items: center;
@@ -50,6 +50,7 @@ body{
     max-width: 200px;
     min-height: 20px;
     margin-right: 1rem;
+    background-color: #ffff;
 }
 .input{
     border: none;
@@ -97,9 +98,20 @@ body{
 }
 /* Sections */
 .sections-top{
-    padding: 1rem ;
+    padding: 1rem 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    
+}
+.section__name{
+    margin: 0 auto;
+    text-transform: capitalize;
+}
+.section__name:hover{
+    color: #ffff;
+}
+.section__feature::after{
+content: "  ⌄";
 }
 /* website header */
 .website-header{
