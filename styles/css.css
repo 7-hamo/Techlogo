@@ -43,7 +43,7 @@ body{
     text-align: center;
 }
 .logo-image>img{
-    max-width: 10%;
+    max-width: 30%;
 }
 /* Form */
 .form{
@@ -184,11 +184,11 @@ text-align: center;
 .card--small{
     padding: 2rem 0;
 }
-.card--small>p{
+.p-card{
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 0;
-    font-size: 0.5rem;
+    font-size: 0.8rem;
 }
 .card--large{
     display: flex;
@@ -219,13 +219,13 @@ text-align: center;
 .card__title{
     white-space: nowrap;
     text-transform: uppercase;
-    font-size: 1rem;
+    font-size: .6rem;
     margin-bottom: 0;
 }
 .card--large p{
     text-align: left;
-    font-size: .8rem;
-    line-height: 1rem;
+    font-size: .4rem;
+    line-height: .9rem;
 }
 .card__footer{
     display: flex;
@@ -237,11 +237,11 @@ text-align: center;
     font-size: .7rem;
 }
 .read-more{
-    font-size: 1rem;
+    font-size: .7rem;
     text-align: left;
 }
 @media screen and (min-width:700px) {
-    .card--small>p{
+    .p-card{
         font-size: 1.4rem;
     }
     .card--small>i{
@@ -286,10 +286,10 @@ text-align: center;
     line-height: .7rem;
     font-size: .7rem;
 }
-.descreption-details>ul{
+.description__ul{
     padding-left: 1rem;
 }
-.details-title{
+.details-title,.descreption__end-p{
     color: grey;
 }
 .details-header>img{
@@ -314,13 +314,31 @@ footer{
     justify-items: center;
 }
 footer .fa-ul{
-    margin-left: 1.6rem;
+    margin-left: 1rem;
 }
 .fa-ul>li{
-    margin-top: 1rem;
+    margin-top: 0.3rem;
 }
 .footer-links:hover{
     color: #f0562f;
+}
+.footer__title{
+    font-size: 0.8rem;
+}
+.footer__p{
+    font-size: .6rem;
+}
+@media screen and (min-width:700px) {
+    
+.fa-ul>li{
+    margin-top: 0.6rem;
+}
+.footer__title{
+    font-size: 1.3rem;
+}
+.footer__p{
+    font-size: 1rem;
+}
 }
 /* blocks */
 .block--first-bar{
