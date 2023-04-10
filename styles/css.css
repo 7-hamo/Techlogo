@@ -322,6 +322,10 @@ footer .fa-ul{
 }
 .fa-ul>li{
     margin-top: 0.3rem;
+    padding-bottom: .3rem;
+}
+.border-bottom{
+    border-bottom: .5px solid lightgray;
 }
 .footer-links:hover{
     color: #f0562f;
