@@ -312,6 +312,7 @@ footer{
     padding: 2rem 2rem;
     color: white;
     justify-items: center;
+    align-content: space-between;
 }
 footer .fa-ul{
     margin-left: 1rem;
