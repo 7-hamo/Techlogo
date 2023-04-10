@@ -207,7 +207,10 @@ text-align: center;
     margin-top: 5rem;
 }
 .card--grey{
-    background-color: #545340;
+    background-color: #404f54;
+}
+.card--green{
+    background-color: var(--green-color);
 }
 .card--red{
     background-color: #f0562f;
